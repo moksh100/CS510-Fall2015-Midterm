@@ -4,7 +4,17 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 class Attractor(object):
-
+        """
+        Class implementation of the calculation and visual representation Runge-Kutta and Euler methods for integration
+        __init__
+        Args:
+            s (int): Default value 10.
+            p (int): Default value 28.
+            b (float): Default value 2.66667.
+            start (float): Default value 0.0.
+            end (float): Default value 80.0.
+            points (int): Default value 10000.
+        """
         def __init__(self,  s=10, p=28, b=2.66667, start=0.0, end=80.0, points=10000):
                 self.params = np.array([s,p,b])
                 self.start = start 
