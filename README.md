@@ -1,6 +1,6 @@
 # CS510-Fall2015-Midterm
 
-Project shows the difference between Euler method and different orders of the Runge-Kutta method.
+Project shows the difference between Euler method and different orders of the Runge-Kutta method for intergration.
 
 - attractor.py implementation of the calculation and visual representation Runge-Kutta and Euler methods
 - ExploreAttractor.ipynb
