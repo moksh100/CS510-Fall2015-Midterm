@@ -68,7 +68,7 @@ class Attractor(object):
                 return calc
 
         def evolve(self, r0= np.array([0.1, 0.0, 0.0]), order =4):
-            """Executed and Return the result of the selected method integration calculation."""
+            """Main entry point. Executed and Return the result of the selected method integration calculation."""
             iterator=np.arange(self.start+1, self.end, self.dt)
             iterator=np.append(iterator, self.end)
             result = np.array(np.append(0, r0))
